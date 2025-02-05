@@ -60,7 +60,7 @@ ADMIN_IDS = set(config['admin_ids'])
 USER_FILE = config['user_file']
 LOG_FILE = config['log_file']
 COOLDOWN_TIME = config['cooldown_time']
-USER_COOLDOWN = 12/  # Cooldown time for normal users in seconds
+USER_COOLDOWN = 300  # Cooldown time for normal users in seconds
 
 admin_balances = config.get('admin_balances', {})
 bgmi_cooldown = {}
